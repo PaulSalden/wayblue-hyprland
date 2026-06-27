@@ -21,6 +21,9 @@ dnf5 install -y tmux hyprlauncher hyprpolkitagent hyprshutdown hyprsunset
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
+dnf5 -y copr enable lihaohong/yazi
+dnf5 -y install yazi
+dnf5 -y copr disable lihaohong/yazi
 
 #### Example for enabling a System Unit File
 
