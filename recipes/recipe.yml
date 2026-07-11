@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - lihaohong/yazi
+        - lionheartp/Hyprland
     install:
       packages:
         - hyprlauncher
