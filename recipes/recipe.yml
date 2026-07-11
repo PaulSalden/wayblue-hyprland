@@ -20,8 +20,11 @@ modules:
   - type: dnf
     repos:
       copr:
-        - lihaohong/yazi
-        - lionheartp/Hyprland
+        enable:
+          - lihaohong/yazi
+          - lionheartp/Hyprland
+        disable:
+          - craftidore/wayblueorg-hyprland
     install:
       packages:
         - hyprlauncher
